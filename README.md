@@ -1,4 +1,4 @@
-# Jellyfin AI Companion
+# Jellyfin AI Companion 🧠
 
 Enhance your Jellyfin media server with a context-aware AI assistant. This companion script integrates directly into the Jellyfin web interface, allowing you to ask questions, get recommendations, and learn more about the movies and shows you're currently viewing.
 
@@ -42,7 +42,7 @@ Save the file and refresh your Jellyfin web page in the browser. (Note: You may 
 1.  **Start your LLM:** Launch either **LM Studio** or **Ollama** on your machine and start the local server. Make sure you have downloaded at least one model.
     *   *Tip for Ollama:* You may need to set the `OLLAMA_ORIGINS` environment variable to `*` to allow CORS requests from Jellyfin.
 2.  **Open Jellyfin:** Navigate to your Jellyfin web interface and open a movie or TV show details page.
-3.  **Open the Companion:** Click the **Brain Icon** located on the page to open the chat interface.
+3.  **Open the Companion:** Click the 🧠 located on the page to open the chat interface.
 4.  **Configure the Endpoint:** 
     *   In the settings/input area, enter your local LLM endpoint URL. 
     *   For **LM Studio**, this is typically `http://localhost:1234/v1`
